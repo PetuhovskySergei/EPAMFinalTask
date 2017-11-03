@@ -1004,15 +1004,15 @@ footer .copyright span{
     }
 
     .product-body .product-item .product-item-desc > div {
-        font-size: 3.875rem;
+        font-size: 2.6rem;
     }
 
     .product-body .product-item .product-item-desc > div:last-child {
-        font-size: 3.875rem;
+        font-size: 2.6rem;
     }
 
     .product-body .product-item .product-item-desc > div:last-child span:nth-child(2) {
-        font-size: 3.375rem;
+        font-size: 2.3rem;
     }
 
     .social{
