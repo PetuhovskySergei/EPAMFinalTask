@@ -78,99 +78,6 @@ main{
     flex: 1 0 auto;
 }
 
-.bg-tw_icon {
-    width: 64px; height: 52px;
-    background: url('../img/css_sprites.png') -94px -10px;
-}
-
-.bg-twitter_icon {
-    width: 16px; height: 14px;
-    background: url('../img/css_sprites.png') -10px -176px;
-}
-
-.bg-youtube_icon {
-    width: 16px; height: 16px;
-    background: url('../img/css_sprites.png') -178px -10px;
-}
-
-.bg-arrow_right {
-    width: 7px; height: 11px;
-    background: url('../img/css_sprites.png') -81px -176px;
-}
-
-.bg-cart_close {
-    width: 14px; height: 15px;
-    background: url('../img/css_sprites.png') -10px -210px;
-}
-
-.bg-clear_search {
-    width: 9px; height: 9px;
-    background: url('../img/css_sprites.png') -214px -151px;
-}
-
-.bg-facebook_icon {
-    width: 8px; height: 16px;
-    background: url('../img/css_sprites.png') -214px -115px;
-}
-
-.bg-f_icon {
-    width: 30px; height: 62px;
-    background: url('../img/css_sprites.png') -10px -94px;
-}
-
-.bg-google_plus {
-    width: 15px; height: 13px;
-    background: url('../img/css_sprites.png') -46px -176px;
-    filter: brightness(10);
-}
-
-.bg-insta_icon {
-    width: 16px; height: 16px;
-    background: url('../img/css_sprites.png') -178px -46px;
-}
-
-.bg-insta_icon_big {
-    width: 28px; height: 28px;
-    background: url('../img/css_sprites.png') -121px -94px;
-}
-
-.bg-pin_icon {
-    width: 64px; height: 64px;
-    background: url('../img/css_sprites.png') -10px -10px;
-}
-
-.bg-pinterest_icon {
-    width: 14px; height: 16px;
-    background: url('../img/css_sprites.png') -178px -117px;
-}
-
-.bg-rss {
-    width: 15px; height: 15px;
-    background: url('../img/css_sprites.png') -178px -82px;
-    filter: brightness(10);
-}
-
-.bg-Search_Icon {
-    width: 12px; height: 13px;
-    background: url('../img/css_sprites.png') -214px -47px;
-}
-
-.bg-slide_left {
-    width: 13px; height: 17px;
-    background: url('../img/css_sprites.png') -214px -10px;
-}
-
-.bg-tumblr {
-    width: 10px; height: 15px;
-    background: url('../img/css_sprites.png') -214px -80px;
-    filter: brightness(10);
-}
-
-.bg-bucket_cart {
-    width: 41px; height: 35px;
-    background: url('../img/css_sprites.png') -60px -94px;
-}
-
 .header-content{
     display: flex;
     justify-content: space-between;
@@ -191,6 +98,10 @@ main{
     justify-content: space-between;
     width: 170px;
     margin: 0 12px 20px 0;
+}
+
+.header-social i{
+    display: none;
 }
 
 .header-social select{
@@ -583,6 +494,10 @@ main{
     margin: 0;
 }
 
+.products-title i{
+    display: none;
+}
+
 .products .products-title{
     display: flex;
     justify-content: space-between;
@@ -848,9 +763,121 @@ footer .copyright span{
     font-size: 12px;
 }
 
+@media screen and (min-device-width: 640px){
+    .bg-tw_icon {
+        width: 64px; height: 52px;
+        background: url('../img/css_sprites.png') -94px -10px;
+    }
+
+    .bg-twitter_icon {
+        width: 16px; height: 14px;
+        background: url('../img/css_sprites.png') -10px -176px;
+    }
+
+    .bg-youtube_icon {
+        width: 16px; height: 16px;
+        background: url('../img/css_sprites.png') -178px -10px;
+    }
+
+    .bg-arrow_right {
+        width: 7px; height: 11px;
+        background: url('../img/css_sprites.png') -81px -176px;
+    }
+
+    .bg-cart_close {
+        width: 14px; height: 15px;
+        background: url('../img/css_sprites.png') -10px -210px;
+    }
+
+    .bg-clear_search {
+        width: 9px; height: 9px;
+        background: url('../img/css_sprites.png') -214px -151px;
+    }
+
+    .bg-facebook_icon {
+        width: 8px; height: 16px;
+        background: url('../img/css_sprites.png') -214px -115px;
+    }
+
+    .bg-f_icon {
+        width: 30px; height: 62px;
+        background: url('../img/css_sprites.png') -10px -94px;
+    }
+
+    .bg-google_plus {
+        width: 15px; height: 13px;
+        background: url('../img/css_sprites.png') -46px -176px;
+        filter: brightness(10);
+    }
+
+    .bg-insta_icon {
+        width: 16px; height: 16px;
+        background: url('../img/css_sprites.png') -178px -46px;
+    }
+
+    .bg-insta_icon_big {
+        width: 28px; height: 28px;
+        background: url('../img/css_sprites.png') -121px -94px;
+    }
+
+    .bg-pin_icon {
+        width: 64px; height: 64px;
+        background: url('../img/css_sprites.png') -10px -10px;
+    }
+
+    .bg-pinterest_icon {
+        width: 14px; height: 16px;
+        background: url('../img/css_sprites.png') -178px -117px;
+    }
+
+    .bg-rss {
+        width: 15px; height: 15px;
+        background: url('../img/css_sprites.png') -178px -82px;
+        filter: brightness(10);
+    }
+
+    .bg-Search_Icon {
+        width: 12px; height: 13px;
+        background: url('../img/css_sprites.png') -214px -47px;
+    }
+
+    .bg-slide_left {
+        width: 13px; height: 17px;
+        background: url('../img/css_sprites.png') -214px -10px;
+    }
+
+    .bg-tumblr {
+        width: 10px; height: 15px;
+        background: url('../img/css_sprites.png') -214px -80px;
+        filter: brightness(10);
+    }
+
+    .bg-bucket_cart {
+        width: 41px; height: 35px;
+        background: url('../img/css_sprites.png') -60px -94px;
+    }
+}
+
 @media screen and (max-device-width: 640px){
     .container{
         width: 98%;
+    }
+
+    .header-social{
+        width: 630px;
+    }
+
+    .header-social div{
+        display: none;
+    }
+
+    .header-social i{
+        display: block;
+        color: white;
+    }
+
+    .header-social select{
+        font-size: 1.875rem;
     }
 
     .slider{
@@ -888,14 +915,15 @@ footer .copyright span{
     }
 
     .aside-menu h3{
-        font-size: 2.125rem;
+        font-size: 3.125rem;
+        padding: 50px 42px 20px 42px;
     }
 
     .menu-btn {
-        font-size: 2.125rem;
+        font-size: 3.125rem;
         display: block;
         color: white;
-        padding: 20px 42px;
+        padding: 50px 42px;
     }
 
     .aside-menu ul{
@@ -920,7 +948,7 @@ footer .copyright span{
     }
 
     .aside-menu ul li{
-        font-size: 1.875rem;
+        font-size: 2.875rem;
         padding: 29px 80px;
     }
 
@@ -932,14 +960,30 @@ footer .copyright span{
         width: 100%;
     }
 
+    .products .products-title > div button:last-child {
+        transform: none;
+    }
+
+    .products .products-title > div {
+        width: 150px;
+    }
+
+    .products-title i{
+        display: block;
+    }
+
+    .products-section {
+        margin-bottom: 116px;
+    }
+
     .products .product-body {
         display: flex;
         flex-wrap: nowrap;
         overflow: hidden;
     }
     .product-body .product-item {
-        min-width: 45%;
-        margin: 0 15px;
+        min-width: 90%;
+        margin: 0 35px;
     }
 
     .brands{
@@ -948,31 +992,35 @@ footer .copyright span{
 
     .product-body .product-item .product-item-img {
         width: 100%;
-        height: 430px;
+        height: 730px;
     }
 
     .product-body .product-item .product-item-desc {
-        height: 170px;
+        height: 270px;
     }
 
     .products h3 {
-        font-size: 2.75rem;
+        font-size: 3.75rem;
     }
 
     .product-body .product-item .product-item-desc > div {
-        font-size: 1.875rem;
+        font-size: 3.875rem;
     }
 
     .product-body .product-item .product-item-desc > div:last-child {
-        font-size: 1.875rem;
+        font-size: 3.875rem;
     }
 
     .product-body .product-item .product-item-desc > div:last-child span:nth-child(2) {
-        font-size: 1.375rem;
+        font-size: 3.375rem;
     }
 
     .social{
         display: none;
+    }
+
+    .brands {
+        height: 245px;
     }
 
     footer .newsletter {
